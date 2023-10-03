@@ -12,6 +12,7 @@ body{
 :root{
 	--primary-color: #ffffff;
 	--common-color:#181c3a;
+	--background-section-color: #f6f6f6;
 }
 .common-color{
 	color: var(--common-color);
@@ -163,12 +164,19 @@ DEBUG
 	
 }
 .section-title h2{
-		font-size: 2.8em;
-		margin-bottom: 25px;
+	font-size: 2.8em;
+	margin-bottom: 25px;
+	color: black;
 }
 
 .section-paragraph p{
 	margin-bottom: 6px;
+}
+.back-color{
+	background-color: var(--background-section-color);
+}
+.second-section{
+	margin: 0 30px 150px 0;
 }
 
 	/* prime 3 section */
