@@ -13,6 +13,7 @@ body{
 	--primary-color: #ffffff;
 	--common-color:#181c3a;
 	--background-section-color: #f6f6f6;
+	--link-background-color:#7289da;
 }
 .common-color{
 	color: var(--common-color);
@@ -21,24 +22,6 @@ body{
 /* GLOBAL */
 /* 
 DEBUG--------------------------------------------------------------------------------
-*/
-
-/* 
- inizio main debug
-*/
-
-	/* final section */
-.debug .container-final-box{
-	height: 1024px;
-}
-.debug .final-part{
-	height: 931px;
-	background-color: #228b22;
-}
-
-	/* final section */
-/* 
-fine main debug
 */
 /* inizio footer */
 .debug footer{
@@ -163,7 +146,7 @@ DEBUG
 	align-items: center;
 	
 }
-.section-title h2{
+h2{
 	font-size: 2.8em;
 	margin-bottom: 25px;
 	color: black;
@@ -182,17 +165,35 @@ DEBUG
 section{
 	margin-bottom: 60px;
 }
-
 	/* prime 3 section */
-	/* sectio finale final */
+	/* sectio finale final ------------*/
 .container-final-box{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-.final-part{
-	width: 1250px;
+.final-title-section{
+	text-align: center;
+	margin: 10px 0 20px 0;
 }
+.section-paragraph{
+	text-align: center;
+}
+.quiz-final-sec h3{
+	text-align: center;
+}
+.final-link-section{
+	background-color:var(--link-background-color);
+	color: white;
+}
+.link-f-sec{
+	text-align: center;
+	padding-top: 20px;
+}
+.four-sec-main-box{
+	padding: 30px;
+}
+
 	/* sectio finale final */
 
 /* 
@@ -200,9 +201,9 @@ fine main
 */
 
 /*
- inizio footer
+ inizio footer-----------------------------------------------------------------------------------------------------------
 */
-/* prima sezione footer */
+/* prima sezione footer -----------------------------------------*/
 
 .main-foot-box{
 	display: flex;
