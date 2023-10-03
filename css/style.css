@@ -192,25 +192,24 @@ fine main
 footer{
 	background-color: #23272a;
 }
+.foot-container{
+	display: flex;
+
+}
 .main-foot-box{
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding-bottom: 25px;
+	width: 100%;	
+	justify-content: space-around;
 }
-.left-box{
-	width: 370px;
-}
-.foot-box{
-	width: 220px;
-}
+
 .foot-title h2{
 	color: var(--footer-important-par);
 	font-size: 1.3em;
+	margin-top: 10px;
 }
 select{
 	color: white;
-	background-color: #181c3a;
+	background-color: #23272a;
 	border: none;
 }
 .img-italia{
@@ -229,6 +228,12 @@ select{
 }
 .list{
 	display: flex;
+}
+.foot-box div,a{
+	margin: 10px;
+}
+.bold-link{
+	color: var(--footer-important-par);
 }
 /* fine prima sezione footer */
 /* inizio ultima parte navbar */
