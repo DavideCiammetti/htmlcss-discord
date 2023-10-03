@@ -8,41 +8,24 @@ body{
 	font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 }
+/* GLOBAL */
 :root{
 	--primary-color: #ffffff;
 	--common-color:#181c3a;
 }
+.common-color{
+	color: var(--common-color);
+	font-size: 1.2em;
+}
+/* GLOBAL */
 /* 
-DEBUG
+DEBUG--------------------------------------------------------------------------------
 */
 
 /* 
  inizio main debug
 */
-	/* prima section debug */
-.debug .main-section{
-	height: 625px;
-	background-color: white;
-}
 
-.debug .container-box{
-	height: 625px;
-}
-
-.debug .big-part{
-	background-color: #1e90ff;
-	height: 517px;
-}
-.debug .small-part{
-	background-color: #ffc0cb;
-	height: 517px;
-}
-	/* fine prima section debug */
-	/* inizio seconda section debug */
-.debug .two{
-	background-color: #d3d3d3;
-}
-	/* fine seconda section debug */
 	/* final section */
 .debug .container-final-box{
 	height: 1024px;
@@ -95,8 +78,10 @@ DEBUG
 		background-image: url("../img/jumbo.png");	
 		background-size: contain;
 		height: 575px;
+		display: flex;
 		background-repeat: no-repeat;
 	} 
+
 	.nav-container{
 		display: flex;
 		align-items: center;
@@ -122,11 +107,6 @@ DEBUG
 		color: var(--primary-color);
 	}
 
-	.common-color{
-		color: var(--common-color);
-		font-size: 1.2em;
-	}
-
 	/* 
 	barra navigazione principale
 	*/
@@ -138,28 +118,28 @@ DEBUG
 			justify-content: center;
 			align-items: center;
 		}
-		.border-geometry{
-			padding: 8px;
-			border-radius: 30px;
-			background-color: white;
-		}
 		.big-box-under-nav{
 			display: flex;
 			flex-direction: column;
 			align-items: center;
 		}
-		.big-box-under-nav,h1,p {
-			color: var(--primary-color);
-		}
 		.first-title{
 			margin-top:86px;
 			margin-bottom:30px;
+		}
+		.big-box-under-nav,h1,p {
+			color: var(--primary-color);
 		}
 		.central-paragraph {
 			text-align: center;
 		}
 		.final-link-header {
 			margin-top: 20px;
+		}
+		.border-geometry{
+			padding: 8px;
+			border-radius: 30px;
+			background-color: white;
 		}
 		.space{
 			margin-left: 10px;
@@ -172,7 +152,7 @@ DEBUG
 /* header */
 
 /* 
- inizio main
+ inizio main-\-\-\-\-\--\-\-\\-\-\-\--\\--\-\\-\--\-\-\-\-\-\-\-\-\--\-\-\-\-\---\-----\-\--\--\\-\-\--\-\-\-\-\-\-\-\-\\-\-\-\-\-\-\-\-
 */
 		/* prime 3 section */
 
@@ -182,12 +162,15 @@ DEBUG
 	align-items: center;
 	
 }
-.big-part{
-	width: 773px;
+.section-title h2{
+		font-size: 2.8em;
+		margin-bottom: 25px;
 }
-.small-part{
-	width: 476px;
+
+.section-paragraph p{
+	margin-bottom: 6px;
 }
+
 	/* prime 3 section */
 	/* sectio finale final */
 .container-final-box{
