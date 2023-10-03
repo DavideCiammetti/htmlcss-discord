@@ -147,20 +147,30 @@ section{
 .section-paragraph{
 	text-align: center;
 }
-.quiz-final-sec h3{
-	text-align: center;
+.quiz-final-sec {
+	display: flex;
+    justify-content: center;
 }
 .final-link-section{
 	background-color:var(--link-background-color);
 	color: white;
 }
+.four-sec-main-box{
+	padding: 30px;
+}
 .link-f-sec{
 	text-align: center;
 	padding-top: 20px;
 }
-.four-sec-main-box{
-	padding: 30px;
+/* bonus part */
+.back-img-{
+	background-repeat: no-repeat;
+	background-size: cover;
 }
+.quiz-title{
+	text-align: center;
+}
+/* bonus part */
 
 	/* sectio finale final */
 
