@@ -14,6 +14,7 @@ body{
 	--common-color:#181c3a;
 	--background-section-color: #f6f6f6;
 	--link-background-color:#7289da;
+	--footer-important-par: #6780d4;
 }
 .common-color{
 	color: var(--common-color);
@@ -24,22 +25,6 @@ body{
 DEBUG--------------------------------------------------------------------------------
 */
 /* inizio footer */
-.debug footer{
-	background-color: #23272a;
-}
-.debug .main-foot-box{
-	height: 655px;
-}
-
-.debug .left-box{
-	background-color: #f08686;
-	height: 600px;
-}
-.debug .foot-box{
-	background-color: #20b2aa;
-	height: 600px;
-	border: 2px dashed rgb(255, 255, 255);
-}
 
 .debug .final{
 	background-color:#ffb6c1;
@@ -204,7 +189,9 @@ fine main
  inizio footer-----------------------------------------------------------------------------------------------------------
 */
 /* prima sezione footer -----------------------------------------*/
-
+footer{
+	background-color: #23272a;
+}
 .main-foot-box{
 	display: flex;
 	justify-content: center;
@@ -217,13 +204,31 @@ fine main
 .foot-box{
 	width: 220px;
 }
-
-.first-space{
-	background-color: #b4b4b3;
+.foot-title h2{
+	color: var(--footer-important-par);
+	font-size: 1.3em;
 }
-
-.second-space{
-	background-color: #d7d7d8;
+select{
+	color: white;
+	background-color: #181c3a;
+	border: none;
+}
+.img-italia{
+	width: 8%;
+	height: 8%;
+	margin-right: 3px;
+}
+.solcial-logo{
+	display: flex;
+}
+.solcial-logo div{
+	margin: 5px;
+}
+.fa-brands{
+	color: white;
+}
+.list{
+	display: flex;
 }
 /* fine prima sezione footer */
 /* inizio ultima parte navbar */
