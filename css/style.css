@@ -3,42 +3,16 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+body{
+	font-family: 'Roboto', sans-serif;
+
+}
+:root{
+	--primary-color: #ffffff;
+}
 /* 
 DEBUG
 */
-/* 
-   global
-*/
-.debug .bord{
-	border: 2px dashed black;
-}
-/* 
-   global
-*/
-	/* nav bar */
-.debug header{
-	background-color: #add8e6;
-}
-.debug .nav-container{
-	height: 82px;
-}
-
-.debug .nav-bar{
-	height: 47px;
-	background-color: #daa520;
-}
-	/* nav bar */
-	/* sottonav */
-.debug .under-nav{
-	background-color: #00008b;
-	height: 513px;
-}
-
-.debug .big-box-under-nav{
-	background-color: #ee82ee;
-	height: 412px;
-}
-	/* sottonav */
 
 /* 
  inizio main debug
@@ -115,6 +89,12 @@ DEBUG
 	/* 
 	barra navigazione principale
 	*/
+	header{
+		background-image: url("../img/jumbo.png");	
+		background-size: contain;
+		height: 575px;
+		background-repeat: no-repeat;
+	} 
 	.nav-container{
 		display: flex;
 		align-items: center;
@@ -123,8 +103,12 @@ DEBUG
 	.nav-bar{
 		display: flex;
 		width: 1248px;
-		justify-content: space-between;
+		justify-content: space-around;
 		align-items: center;
+	}
+
+	.nav{
+		padding: 10px;
 	}
 
 	.link-container{
@@ -132,8 +116,12 @@ DEBUG
 	}
 
 	a{
-		margin-right: 10px;
 		text-decoration: none; 
+		color: var(--primary-color);
+	}
+
+	.nav .accedi-nav{
+		color: #181c3a;
 	}
 
 	/* 
@@ -146,11 +134,11 @@ DEBUG
 			display: flex;
 			justify-content: center;
 			align-items: center;
-			border-bottom: 4px solid #add8e6;
 		}
-		.big-box-under-nav{
-			width: 943px;
-			border-radius: 5px;
+		.border-geometry{
+			padding: 8px;
+			border-radius: 30px;
+			background-color: white;
 		}
 /* header */
 
