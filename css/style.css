@@ -29,8 +29,9 @@ body{
 	header{
 		background-image: url("../img/jumbo.png");	
 		background-size: contain;
-		height: 575px;
+		height: 37vw;
 		display: flex;
+		justify-content: center;
 		background-repeat: no-repeat;
 	} 
 
@@ -87,6 +88,7 @@ body{
 		}
 		.final-link-header {
 			margin-top: 20px;
+			display: flex;
 		}
 		.border-geometry{
 			padding: 8px;
@@ -104,9 +106,9 @@ body{
 /* header */
 
 /* 
- inizio main-\-\-\-\-\--\-\-\\-\-\-\--\\--\-\\-\--\-\-\-\-\-\-\-\-\--\-\-\-\-\---\-----\-\--\--\\-\-\--\-\-\-\-\-\-\-\-\\-\-\-\-\-\-\-\-
+ inizio main
 */
-		/* prime 3 section */
+	/* prime 3 section */
 
 .container-box{
 	display: flex;
@@ -124,7 +126,7 @@ h2{
 	margin-bottom: 6px;
 }
 .back-color{
-	background-color: var(--background-section-color);
+	background-color: var(--background-section-color); 
 }
 .second-section{
 	margin: 0 30px 150px 0;
@@ -134,7 +136,7 @@ section{
 	margin-bottom: 60px;
 }
 	/* prime 3 section */
-	/* sectio finale final ------------*/
+	/* sectio finale final */
 .container-final-box{
 	display: flex;
 	justify-content: center;
@@ -160,29 +162,31 @@ section{
 }
 .link-f-sec{
 	text-align: center;
+	display: flex;
+	justify-content: center;
 	padding-top: 20px;
-}
-/* bonus part */
-.back-img-{
-	background-repeat: no-repeat;
-	background-size: contain;
-
 }
 .quiz-title{
 	text-align: center;
 }
-/* bonus part */
 
-	/* sectio finale final */
-
+.quiz-title h3{
+	background-image: url("../img/stars.svg" );
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 30px;
+	background-position: center top;
+}
 /* 
 fine main
 */
 
 /*
- inizio footer-----------------------------------------------------------------------------------------------------------
+ inizio footer
 */
-/* prima sezione footer -----------------------------------------*/
+/* 
+prima sezione footer
+*/
 footer{
 	background-color: #23272a;
 }
@@ -207,9 +211,10 @@ select{
 	border: none;
 }
 .img-italia{
-	width: 8%;
-	height: 8%;
+	width: 10%;
+	height: 10%;
 	margin-right: 3px;
+	margin-top: 3px;
 }
 .solcial-logo{
 	display: flex;
